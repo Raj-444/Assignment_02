@@ -1,11 +1,17 @@
+*{
+  box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
 .Container{
-    box-sizing: border-box;
-    padding: 40px;
-    margin: 15px;
+  max-width: 1280px;
+  margin: auto;
 }
 .Header {
   display: flex;
   justify-content: space-between;
+  padding: 20px;
 }
 .logo {
   height: 20px;
@@ -28,4 +34,33 @@
 }
 .cart{
 color: rgb(37,37,51);
+}
+/* @media screen and (max-width: 576px){
+  .logo{
+    
+  }
+    
+} */
+
+/* Hero section */
+.Hero{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 90px;
+  margin: 50px auto;
+padding: 50px;
+}
+.banner-left h1{
+  font-weight: bold;
+  font-size: 65px;
+  gap: 60px;
+}
+.banner-left span{
+color: rgb(232,91,8);
+}
+.banner-left p{
+  color: rgb(123,125,127);
+  font-size: 22px;
+  margin-bottom: -0px;
 }
