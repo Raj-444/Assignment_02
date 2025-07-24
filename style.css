@@ -56,11 +56,46 @@ padding: 50px;
   font-size: 65px;
   gap: 60px;
 }
-.banner-left span{
+.Highlight{
 color: rgb(232,91,8);
 }
-.banner-left p{
+.sub-title{
   color: rgb(123,125,127);
   font-size: 22px;
-  margin-bottom: -0px;
+  
+}
+.Flower{
+  text-align: center;
+  padding: 40px 20px;
+}
+.our-flower{
+  font-size: 50px;
+}
+.flower-grid{
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+  padding: 20px;
+  font-family: "Inter", sans-serif;
+}
+.flower-card {
+
+  text-align: center;
+}
+
+.flower-card button {
+  background: rgb(232,91,8);
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+width: 275px;
+height: 35px;
+  margin-top: 5px;
+}
+.Flower h4{
+font-weight: 400;
+}
+.Flower button{
+  font-size: medium;
 }
