@@ -1,0 +1,31 @@
+.Container{
+    box-sizing: border-box;
+    padding: 40px;
+    margin: 15px;
+}
+.Header {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  height: 20px;
+  width: 135px;
+}
+.Head-nav {
+  gap: 40px;
+}
+.Head-nav a {
+  text-decoration: none;
+  margin: 10px;
+  font-size: larger;
+}
+.shop, .about-us{
+    color: rgb(137,135,161);
+}
+.home{
+    font-weight: 700;
+    color: rgb(37,37,51);
+}
+.cart{
+color: rgb(37,37,51);
+}
