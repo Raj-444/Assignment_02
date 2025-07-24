@@ -2,6 +2,7 @@
   box-sizing: border-box;
     padding: 0px;
     margin: 0px;
+    
 }
 
 .Container{
@@ -98,4 +99,55 @@ font-weight: 400;
 }
 .Flower button{
   font-size: medium;
+}
+.lover {
+  display: flex;
+  
+  align-items: center;
+  gap: 40px;
+  padding: 100px 30px;
+  /* background: #fffaf0; */
+  /* flex-wrap: wrap; */
+}
+
+.lover-img,
+.lover-text {
+  position: relative;
+  /* flex: 1 1 450px; */
+  max-width: 500px;
+  /* background: #ffffff; */
+  /* border: 1px solid #eee; */
+  /* border-radius: 10px; */
+  /* box-shadow: 0 0 10px rgba(0,0,0,0.05); */
+  /* padding: 20px; */
+}
+.lover-img {
+  position: relative;
+}
+
+.lover-img .badge {
+  position: absolute;
+  top: -105px;
+  left: 355px;
+  width: 215px;
+  height: 215px;
+  z-index: 2;
+}
+
+.lover-img img {
+  width: 100%;
+  /* border-radius: 8px; */
+}
+
+.lover-text h2 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.lover-text ul {
+  font-size: 22px;
+  list-style: disc;
+  padding-left: 20px;
+  line-height: 1.7;
+   color: rgb(123,125,127);
 }
