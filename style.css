@@ -36,12 +36,19 @@
 .cart {
   color: rgb(37, 37, 51);
 }
-/* @media screen and (max-width: 576px){
-  .logo{
-    
+@media (max-width: 768px) {
+  .Header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
-    
-} */
+
+  .Head-nav {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+  }
+}
 
 /* Hero section */
 .Hero {
@@ -107,7 +114,22 @@
   /* background: #fffaf0; */
   /* flex-wrap: wrap; */
 }
+@media (max-width: 768px) {
+  .Hero {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    padding: 30px 20px;
+  }
 
+  .banner-left h1 {
+    font-size: 40px;
+  }
+
+  .sub-title {
+    font-size: 18px;
+  }
+}
 .lover-img,
 .lover-text {
   position: relative;
@@ -169,6 +191,21 @@
       font-size: 1rem;
     }
 
+    @media (max-width: 768px) {
+  .flower-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .flower-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .flower-card button {
+    width: 100%;
+  }
+}
     /* Deals Grid */
    
 
@@ -242,16 +279,17 @@
       background-color: #e65500;
     }
 
-    /* Responsive */
-    /* @media (max-width: 900px) {
-      .deals-container {
-        grid-template-columns: 1fr;
-      }
+   @media (max-width: 900px) {
+  .deals-container {
+    grid-template-columns: 1fr;
+  }
 
-      .deal-card.large {
-        height: 250px;
-      }
-     */
+  .deal-card.large {
+    height: 280px;
+  }
+}
+
+  
 
 
     
@@ -296,7 +334,16 @@
       cursor: pointer;
       font-size: 1rem;
     }
+@media (max-width: 600px) {
+  .subscribe-box {
+    flex-direction: column;
+  }
 
+  .subscribe-box input,
+  .subscribe-box button {
+    width: 100%;
+  }
+}
     /* Footer */
     footer {
       background-color: #fff;
